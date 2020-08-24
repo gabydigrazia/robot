@@ -17,8 +17,8 @@ Following lines *[number_of_obstacles]* will contain two integers separated by s
 
 Next lines *[number_of_commands]* will contain one of the commands for the robot:
 - “L”: turn left 90 degrees
-“R”: turn right 90 degrees
-“M n”: Move n steps forward
+- “R”: turn right 90 degrees
+- “M n”: Move n steps forward
 
 ### Output
 The output is a float number rounded off to two decimal place, Salida un único punto flotante número redondeado a dos decimales, the maximum (Euclidean) distance the robot will get from your initial possition.
@@ -30,19 +30,19 @@ The output is a float number rounded off to two decimal place, Salida un único 
 - -100,000 <= X or Y obstacle's coordinate <= 100,000
 
 ### Input sample
-1 8
-0 2
-M 5
-R
-M 1
-L
-M 3
-L
-L
-M 3
+- 1 8
+- 0 2
+- M 5
+- R
+- M 1
+- L
+- M 3
+- L
+- L
+- M 3
 
 ### Output sample
-4.12
+- 4.12
 
 
 
